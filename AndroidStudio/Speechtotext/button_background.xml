@@ -1,0 +1,12 @@
+//Now for the button background, we will create one more drawable resource file inside the same directory. 
+//Create a file named button_background.xml and write the following code.
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/round_default" android:state_pressed="false" />
+
+    <item android:drawable="@drawable/round_active" android:state_pressed="true" />
+
+
+</selector>
