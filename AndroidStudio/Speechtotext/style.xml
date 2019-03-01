@@ -1,3 +1,5 @@
+// Change the style to NoActionBar as well (res->values->styles.xml).
+
 <resources>
  
     <!-- Base application theme. -->
